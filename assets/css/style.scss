@@ -1,12 +1,15 @@
 ---
 ---
+$bg-color   : #F2EADF;
+$text-color : #333;
+$link-color : #b92a2a;
 
 body {
-  background-color: #F2EADF;
+  background-color: $bg-color;
   font: {
     family: "Open Sans", sans-serif;
   }
-  color: #333;
+  color: $text-color;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -16,7 +19,7 @@ h1, h2, h3, h4, h5, h6 {
 
 a {
   display: inline-block;
-  color: #FE9839;
+  color: $link-color;
   text-decoration: none;
   border-bottom: 2px dotted;
   outline: none;
@@ -83,7 +86,7 @@ main {
         overflow: hidden;
         vertical-align: center;
         transition: all 250ms;
-        color: #FE9839;
+        color: $link-color;
         line-height: 20px;
         margin-left: .1em;
       }
